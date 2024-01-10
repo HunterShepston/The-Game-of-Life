@@ -1,8 +1,12 @@
 # Overview
 
 This program is meant to simulate the game of life, the zero player game invented by John 
-Horton Conway. The game will be played on a 2d grid of boolean values, which will be 
-updated according to the rules; which can be found in the asgn4 pdf for those unfamiliar.
+Horton Conway. The game will be played on a 2d grid of boolean values, with true representing
+a live cell, and false representing a dead cell. The values will change after each generation
+according to the following rules:
+1. Any live cell with two or three live neighbors survives.
+2. Any dead cell with exactly three live neighbors becomes a live cell.
+3. All other cells die, either due to loneliness or overcrowding.
 
 ## Using the program
 
