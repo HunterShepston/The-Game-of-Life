@@ -11,7 +11,7 @@ according to the following rules:
 ## Using the program
 
 To create the program you must first run the Makefile, you can do this by using the
-commands; '$ make', '$make all', or '$make life'. You can use '$make clean' to 
+commands; '$ make', '$ make all', or '$ make life'. You can use '$make clean' to 
 get rid of the extra files.
 
 After you have created the executable, you can run it with ./life [tsn:i:o:]
